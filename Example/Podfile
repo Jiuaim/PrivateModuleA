@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'PrivateModuleA_Example' do
+  pod 'PrivateModuleA', :path => '../'
+
+  target 'PrivateModuleA_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
