@@ -1,0 +1,16 @@
+PODS:
+  - PrivateModuleA (0.1.0)
+
+DEPENDENCIES:
+  - PrivateModuleA (from `../`)
+
+EXTERNAL SOURCES:
+  PrivateModuleA:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PrivateModuleA: 43e85ec62c54759b2bfeb5dd0eba6e74f4e3d8a5
+
+PODFILE CHECKSUM: 52971993ad54c112ea95c9fb3fe316aa08bc277d
+
+COCOAPODS: 1.8.4

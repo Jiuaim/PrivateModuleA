@@ -7,6 +7,8 @@
 //
 
 #import "SZViewController.h"
+//#import "SZTest2.h"
+#import <SZTest2.h>
 
 @interface SZViewController ()
 
@@ -18,6 +20,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [SZTest2 addATestBlueViewInView:self.view frame:CGRectMake(100, 100, 100, 100)];
 }
 
 - (void)didReceiveMemoryWarning

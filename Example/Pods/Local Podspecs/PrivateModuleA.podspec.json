@@ -1,0 +1,22 @@
+{
+  "name": "PrivateModuleA",
+  "version": "0.1.0",
+  "summary": "A short description of PrivateModuleA.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/hsz/PrivateModuleA",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hsz": "shengzhong.huang@zhengmen.com"
+  },
+  "source": {
+    "git": "https://github.com/hsz/PrivateModuleA.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PrivateModuleA/Classes/**/*"
+}
